@@ -5,7 +5,7 @@ st.balloons()
 # Show title and description.
 st.title("💬 Panibot")
 st.write(
-   "Este es un chatbot de prueba para el diplomado Inteligencia Internacional Aplicada desde la Ética y El Humanismo.\nProbemos la herramienta🥳"
+   "Este es un chatbot de prueba para el diplomado Inteligencia Internacional Aplicada desde la Ética y El Humanismo.\n Probemos la herramienta🥳"
    
 )
 openai_api_key = st.secrets["api_key"] 
