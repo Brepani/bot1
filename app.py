@@ -5,9 +5,8 @@ st.balloons()
 # Show title and description.
 st.title("💬 Panibot")
 st.write(
-   "Este es un chatbot de prueba para el diplomado Inteligencia Internacional Aplicada desde la Ética y El Humanismo. "
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-   "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+   "Este es un chatbot de prueba para el diplomado Inteligencia Internacional Aplicada desde la Ética y El Humanismo.\nProbemos la herramienta🥳"
+   
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
