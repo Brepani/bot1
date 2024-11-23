@@ -6,7 +6,7 @@ st.balloons()
 st.title("💬 Panibot")
 st.write(
    "Este es un chatbot de prueba para el diplomado Inteligencia Internacional Aplicada desde la Ética y El Humanismo.\nProbemos la herramienta🥳"
-   "Ojo: la información está actualizada hasta octubre de 2023"
+   "\nOjo: la información está actualizada hasta octubre de 2023"
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
